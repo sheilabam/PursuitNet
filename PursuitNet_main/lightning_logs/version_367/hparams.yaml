@@ -1,0 +1,32 @@
+args: !!python/object:argparse.Namespace
+  align_image_with_target_x: true
+  batch_size: 16
+  gpus: 0
+  latent_size: 64
+  lr_step_epochs:
+  - 32
+  - 36
+  - 68
+  lr_values:
+  - 0.001
+  - 0.0001
+  - 0.001
+  - 0.0001
+  mod_freeze_epoch: 36
+  mod_steps:
+  - 1
+  - 5
+  num_epochs: 72
+  num_preds: 12
+  reduce_dataset_size: 0
+  test_split: /storage1/wqq/dataset/argoverse/test_obs/data
+  test_split_pre: /storage1/wqq/dataset/argoverse/test_pre.pkl
+  train_split: /storage1/wqq/dataset/argoverse/train/data
+  train_split_pre: /storage1/wqq/dataset/argoverse/train_pre.pkl
+  use_preprocessed: true
+  val_batch_size: 16
+  val_split: /storage1/wqq/dataset/argoverse/val/data
+  val_split_pre: /storage1/wqq/dataset/argoverse/val_pre.pkl
+  val_workers: 0
+  wd: 0.001
+  workers: 0
