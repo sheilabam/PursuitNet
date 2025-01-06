@@ -1,6 +1,10 @@
 # PursuitNet：A deep learning model for predicting pursuit-like behavior in mice
 A deep learning framework specifically designed to model the competitive, real-time dynamics of pursuit-escape scenarios.
 
+# Pursuit-Escape Confrontation (PEC) dataset
+The PEC dataset was derived from real animal behaviors observed during predator-prey interactions between a hungry mouse and an escaping robotic bait.
+![image](https://github.com/user-attachments/assets/aa2e31f7-ce5c-46cc-967b-53bfc90d5214)
+
 ## License
 PursuitNet is licensed under "http://www.apache.org/licenses/LICENSE-2.0"
 
