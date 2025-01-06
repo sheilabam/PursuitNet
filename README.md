@@ -7,7 +7,7 @@ A deep learning framework specifically designed to model the competitive, real-t
 The PEC dataset was derived from real animal behaviors observed during predator-prey interactions between a hungry mouse 
 and an escaping robotic bait.
 
-![image](https://github.com/user-attachments/assets/834597b5-94eb-436a-b67e-6502860a9458)
+![image](https://github.com/user-attachments/assets/7d4793b1-145f-4a44-bd56-8b7b9134d3c1)
 
 The constituent dataset (*.csv files, 1169) contain the following parameters:
 TIMESTAMP: The timestamp indicates the specific time at which the data was recorded. In this example, the timestamp is measured in seconds.
