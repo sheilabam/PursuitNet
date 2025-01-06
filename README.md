@@ -2,7 +2,7 @@
 A deep learning framework specifically designed to model the competitive, real-time dynamics of pursuit-escape scenarios.
 
 ## License
-PursuitNet is licensed under <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0" 
+PursuitNet is licensed under <"http://www.apache.org/licenses/LICENSE-2.0"> 
 
 ## Installation
 ### Install Anaconda
