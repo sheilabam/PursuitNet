@@ -1,10 +1,20 @@
 # PursuitNet：A deep learning model for predicting pursuit-like behavior in mice
 A deep learning framework specifically designed to model the competitive, real-time dynamics of pursuit-escape scenarios.
 
-
 # Pursuit-Escape Confrontation (PEC) dataset
-The PEC dataset was derived from real animal behaviors observed during predator-prey interactions between a hungry mouse and an escaping robotic bait.
+The PEC dataset was derived from real animal behaviors observed during predator-prey interactions between a hungry mouse 
+and an escaping robotic bait.
 ![image](https://github.com/user-attachments/assets/834597b5-94eb-436a-b67e-6502860a9458)
+The constituent dataset (*.csv files, 1169) contain the following parameters:
+TIMESTAMP: The timestamp indicates the specific time at which the data was recorded. In this example, the timestamp is measured in seconds.
+TRACK_ID: The tracking ID is used to uniquely identify each tracked subject (robotic bait or mice). Here, a UUID (Universally Unique Identifier) is used. 
+OBJECT_TYPE: The object type specifies whether the recorded data belongs to the robotic bait (BAIT) or a mouse (MICE).
+X: The X coordinate represents the position of the subject in a two-dimensional space, measured in pixel.
+Y: The Y coordinate, together with the X coordinate, determines the subject's position in two-dimensional space.
+SPEED: Velocity indicates the rate of movement of the subject at the recorded timestamp, measured in centimeters per second.
+ACCELERATION: Acceleration represents the rate of change of the subject's speed. The unit is typically centimeters per second squared.
+SOURCE: The data source indicates from which experimental batch or recording device the data was obtained. This helps in tracking the origin of the data and managing it.
+
 
 ## License
 PursuitNet is licensed under "http://www.apache.org/licenses/LICENSE-2.0"
