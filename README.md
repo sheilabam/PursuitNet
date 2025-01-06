@@ -19,7 +19,7 @@ SOURCE: The data source indicates from which experimental batch or recording dev
 
 
 ## License
-PursuitNet is licensed under "http://www.apache.org/licenses/LICENSE-2.0"
+PursuitNet is licensed under
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Installation
