@@ -1,5 +1,5 @@
 # PursuitNet：A deep learning model for predicting pursuit-like behavior in mice
-# PursuitNet, a deep learning framework specifically designed to model the competitive, real-time dynamics of pursuit-escape scenarios.
+A deep learning framework specifically designed to model the competitive, real-time dynamics of pursuit-escape scenarios.
 
 ## Installation
 ### Install Anaconda
